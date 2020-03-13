@@ -14,9 +14,6 @@ select,
 textarea {
   font-family: "Ubuntu", "Roboto", "Open Sans", "Microsoft YaHei", sans-serif;
 }
-a {
-  word-break: break-all;
-}
 @media screen and (min-width: 1280px) {
   .is-1-column .container,
   .is-2-column .container {
@@ -96,62 +93,24 @@ img.thumbnail {
 .navbar-main .navbar-menu {
   flex-grow: 1;
   flex-shrink: 0;
-  overflow: visible;
+  overflow-x: auto;
 }
 .navbar-main .navbar-start {
   justify-content: flex-start;
   margin-right: auto;
-  margin-left: 0.75rem;
 }
 .navbar-main .navbar-end {
   justify-content: flex-end;
   margin-left: auto;
 }
 .navbar-main .navbar-item {
-  position: relative;
   display: flex;
   align-items: center;
-  padding: 0;
-}
-.navbar-main .navbar-item a {
-  display: inline-block;
   padding: 1.25rem 0.75rem;
-  vertical-align: top;
-  color: #0a0a0a;
-}
-.navbar-main .navbar-item:hover {
-  background-color: #f8f8f8;
-}
-.navbar-main .navbar-item:hover a {
-  color: #3273dc;
-}
-.navbar-main .navbar-item:hover .drop-down {
-  display: block;
-}
-.navbar-main .navbar-item .drop-down {
-  display: none;
-  position: absolute;
-  left: 0;
-  top: calc(100% - 1px);
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-.navbar-main .navbar-item .drop-down a {
-  display: block;
-  padding: 0.75rem;
-  color: #0a0a0a;
-}
-.navbar-main .navbar-item .drop-down a:hover {
-  background-color: #f1f1f1;
-  color: #3273dc;
 }
 .navbar-main .navbar-item.is-active {
-  background-color: transparent;
-}
-.navbar-main .navbar-item.is-active a {
   color: #3273dc;
+  background-color: transparent;
 }
 @media screen and (max-width: 1087px) {
   .navbar-main .navbar-menu {
