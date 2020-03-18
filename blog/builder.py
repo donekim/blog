@@ -16,9 +16,9 @@ from utils.system.date import get_uct_time_str
 from blog.message import get_message
 
 
-BLOG_ORGANIZATION = "twofastlane"
+BLOG_ORGANIZATION = "donekim"
 BLOG_AVATAR = "https://avatars0.githubusercontent.com/u/50857551?s=200&v=4"
-BLOG_FAVICON = "https://www.easyicon.net/api/resizeApi.php?id=1185564&size=32"
+BLOG_FAVICON = "https://files.steempeak.com/file/steempeak/jacobyu/qx0AOSfk-KakaoTalk_Photo_2020-03-13-20-44-13.png"
 
 CONFIG_FILE = "_config.yml"
 CONFIG_THEME_FILE = "_config.theme.yml"

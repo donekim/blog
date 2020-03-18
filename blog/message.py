@@ -65,8 +65,8 @@ MESSAGES['config'] = """
 
 # Site
 # add 'site_title' because 'title' is overriden by the metadata in post
-site_title: {name}
-title: {name}
+site_title: '디온의 CRYPTO로그'
+title: '디온의 CRYPTO로그'
 subtitle:
 description:
 author: {author}
